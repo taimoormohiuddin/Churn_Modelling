@@ -1,27 +1,11 @@
-<<<<<<< HEAD
 numpy
 pandas
 matplotlib
 seaborn
 scikit-learn
 tensorflow
-streamlit==1.28.0
+streamlit
 joblib
 plotly
 openpyxl
 protobuf==3.20.3
-altair==4.2.2
-=======
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-tensorflow
-streamlit==1.28.0
-joblib
-plotly
-openpyxl
-protobuf==3.20.3
-altair==4.2.2
->>>>>>> 2df5dd3005ebda6ec3522ce8f98cdb9826fd12c5
