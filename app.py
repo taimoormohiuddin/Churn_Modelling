@@ -28,48 +28,48 @@ st.set_page_config(
 
 # Custom CSS 
 st.markdown("""
-    <style>
-    .main-header {
-        text-align: center;
-        padding: 1rem;
-        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        border-radius: 10px;
-        margin-bottom: 2rem;
-    }
-    .prediction-box {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        padding: 2rem;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    .prediction-amount {
-        font-size: 3rem;
-        font-weight: bold;
-        margin: 1rem 0;
-    }
-    .feature-card {
-        background-color: #f8f9fa;
-        padding: 1rem;
-        border-radius: 8px;
-        border-left: 4px solid #667eea;
-        margin: 0.5rem 0;
-    }
-    .stButton>button {
-        width: 100%;
-        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        font-weight: bold;
-        border: none;
-        padding: 0.75rem;
-        font-size: 1.1rem;
-    }
-    .stButton>button:hover {
-        background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
-    }
-    </style>
+<style>
+.main-header {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.prediction-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.prediction-amount {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.feature-card {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    margin: 0.5rem 0;
+}
+.stButton>button {
+    width: 100%;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+}
+.stButton>button:hover {
+    background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+}
+</style>
 """, unsafe_allow_html=True)
 
 # Initialize session state
